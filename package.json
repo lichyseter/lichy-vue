@@ -2,6 +2,7 @@
   "name": "lichy-vue-first",
   "version": "0.1.0",
   "private": true,
+  "author": "lichy&wxy <lichyseter@hotmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,34 +10,53 @@
   },
   "dependencies": {
     "core-js": "^3.7.0",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.8",
-    "@vue/cli-plugin-eslint": "^4.5.8",
-    "@vue/cli-service": "^4.5.8",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.12"
+    "chalk": "^4.1.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "copy-webpack-plugin": "^6.3.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^4.5.0",
+    "http-proxy-middleware": "^1.0.6",
+    "open": "^7.3.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "ora": "^5.1.0",
+    "pushstate-server": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.2",
+    "vue-eslint-parser": "^7.1.1",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-merge": "^5.4.0"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not ie <= 8"
   ]
 }
